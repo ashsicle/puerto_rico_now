@@ -48,6 +48,12 @@ img {
   max-width: 100%;
   vertical-align: middle; }
 
+/* qi modify */
+img[src$="#full"] {
+  width: 100vw;
+  max-width: none;
+}
+
 /**
  * Figures
  */
@@ -314,7 +320,7 @@ table {
 .post-link {
   display: block;
   padding-top: .5em;
-  font-size: 18px;
+  font-size: 14px;
  text-decoration: none}
 
 /**
@@ -538,4 +544,9 @@ table {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%)
+}
+
+img[src$="#full"] {
+  width: 100%;
+  max-width: none;
 }
