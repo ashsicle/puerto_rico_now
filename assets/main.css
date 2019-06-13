@@ -548,5 +548,6 @@ table {
 
 img[src$="#fullimg"] {
   max-width: none;
-  width: 100%;
+  width: 100vw;
+  margin: auto;
 }
