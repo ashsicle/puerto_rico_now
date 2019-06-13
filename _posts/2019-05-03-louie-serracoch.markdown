@@ -5,7 +5,7 @@ image: "/puerto_rico_now/images/recovery/mapping-agency-thumbnail.gif"
 title:  "Community Agency through Mapping: Decision Making Tools for Puerto Ricans"
 author: "Ashley Louie & Gloria Serra Coch"
 ---
-![Agency Through Mapping](/puerto_rico_now/images/recovery/agency_through_mapping.png.fullimg)
+![Agency Through Mapping](/puerto_rico_now/images/recovery/agency_through_mapping.png#fullimg)
 
 #### **Puerto Rico Today**
 **Debt and Disaster**
