@@ -549,4 +549,5 @@ table {
 img[src$="#full"] {
   width: 100%;
   max-width: none;
+  z-index: 9;
 }
