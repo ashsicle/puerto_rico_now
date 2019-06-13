@@ -18,8 +18,12 @@ layout: default
       </time>{%- endif -%}
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+  <div class="post-content e-content">
+    <div class="wrapper">
+      <div itemprop="articleBody">
+        {{ content }}
+      </div>
+    </div>
   </div>
 
   {%- if site.disqus.shortname -%}
