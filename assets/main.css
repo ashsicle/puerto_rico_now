@@ -546,7 +546,7 @@ table {
     transform: translateX(-50%) translateY(-50%)
 }
 
-img[src$=".fullimg"] {
+img[src$="#fullimg"] {
   max-width: none;
   width: 100%;
 }
