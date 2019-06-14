@@ -569,5 +569,5 @@ table {
   margin-left: auto;
   margin-right: auto;
   width: 100vw;
-  transform: translateX(-50vw-430px);
+  transform: translateX(-50vw) translateX(-430px);
 }
