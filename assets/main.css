@@ -118,13 +118,23 @@ blockquote {
   margin-left: auto;
   padding-right: 30px;
   padding-top: 30px;
-  padding-left: 30px; }
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
   @media screen and (max-width: 800px) {
     .wrapper {
       max-width: -webkit-calc(800px - (30px));
       max-width: calc(800px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
+
+.content-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /**
  * Clearfix
