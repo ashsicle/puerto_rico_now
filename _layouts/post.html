@@ -17,9 +17,11 @@ layout: default
         {{ page.date | date: date_format }} -->
       </time>{%- endif -%}
   </header>
-    <div class="post-content e-content content-column wrapper" itemprop="articleBody">
+  <div class="wrapper">
+    <div class="post-content e-content content-column" itemprop="articleBody">
       {{ content }}
     </div>
+  </div>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
