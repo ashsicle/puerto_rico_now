@@ -121,8 +121,8 @@ blockquote {
       padding-right: 15px;
       padding-left: 15px; }
     .full-img {
-      left: -webkit-calc(-(100% - 815px));
-      left: calc(-(100% - 815px));
+      transform: translateX(-webkit-calc(-(100% - 815px)));
+      transform: translateX(calc(-(100% - 815px)));
     }
   }
 
@@ -246,8 +246,8 @@ table {
         .site-nav .page-link:not(:last-child) {
           margin-right: 0; } }
     .full-img {
-      left: -webkit-calc(-(100% - 630px));
-      left: calc(-(100% - 630px));
+      transform: translateX(-webkit-calc(-(100% - 630px)));
+      transform: translateX(calc(-(100% - 630px)));
     }
 
 /**
@@ -569,6 +569,6 @@ table {
   margin-left: auto;
   margin-right: auto;
   width: 100vw;
-  left: -webkit-calc(-(800px - (30px))-30px);
-  left: calc(-(800px - (30px))-30px);
+  transform: translateX(-30px);
+  transform: translateX(-30px);
 }
