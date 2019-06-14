@@ -130,10 +130,10 @@ blockquote {
       padding-right: 15px;
       padding-left: 15px; } }
 
-.content-column {
+./*content-column {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;*/
 }
 
 /**
@@ -567,4 +567,5 @@ table {
   margin-left: auto;
   margin-right: auto;
   width: 100vw;
+  
 }
