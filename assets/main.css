@@ -556,8 +556,15 @@ table {
     transform: translateX(-50%) translateY(-50%)
 }
 
-img[src$="#fullimg"] {
+/*img[src$="#fullimg"] {
   max-width: none;
   width: 100vw;
   margin: auto;
+}*/
+
+.full-img {
+  max-width:none;
+  width: 100vw;
+  margin: auto;
+  align-content: center;
 }
