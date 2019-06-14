@@ -121,8 +121,7 @@ blockquote {
       padding-right: 15px;
       padding-left: 15px; }
     .full-img {
-      transform: translateX(-webkit-calc(-(100% - 815px)));
-      transform: translateX(calc(-(100% - 815px)));
+      transform: translateX(50vw) translateX(-430px);
     }
   }
 
@@ -569,5 +568,6 @@ table {
   margin-left: auto;
   margin-right: auto;
   width: 100vw;
-  transform: translateX(-50vw) translateX(-430px);
+  left: 50vw;
+  transform: translateX(-50vw);
 }
