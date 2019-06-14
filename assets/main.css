@@ -125,10 +125,10 @@ blockquote {
     }
   }
 
-./*content-column {
+.content-column {
   display: flex;
   flex-direction: column;
-  align-items: center;*/
+  align-items: center;
 }
 
 /**
@@ -568,6 +568,6 @@ table {
   margin-left: auto;
   margin-right: auto;
   width: 100vw;
-  left: 50vw;
-  transform: translateX(-50vw);
+  /*left: 50vw;
+  transform: translateX(-50vw);*/
 }
