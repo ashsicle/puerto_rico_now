@@ -120,8 +120,8 @@ blockquote {
       max-width: calc(800px - (30px));
       padding-right: 15px;
       padding-left: 15px; }
-    .full-img {
-      transform: translateX(50vw) translateX(-430px);
+    /*.full-img {
+      transform: translateX(50vw) translateX(-430px);*/
     }
   }
 
@@ -244,9 +244,9 @@ table {
         margin-left: 20px; }
         .site-nav .page-link:not(:last-child) {
           margin-right: 0; } }
-    .full-img {
+    /*.full-img {
       transform: translateX(-webkit-calc(-(100% - 630px)));
-      transform: translateX(calc(-(100% - 630px)));
+      transform: translateX(calc(-(100% - 630px)));*/
     }
 
 /**
