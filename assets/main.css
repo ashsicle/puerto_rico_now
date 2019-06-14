@@ -564,6 +564,7 @@ table {
 
 .full-img {
   max-width:none;
+  position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
