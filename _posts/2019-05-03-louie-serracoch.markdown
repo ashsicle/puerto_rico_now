@@ -1,178 +1,585 @@
----
-layout: post
-date:   2019-05-03
-image: "/puerto_rico_now/images/recovery/mapping-agency-thumbnail.gif"
-title:  "Community Agency through Mapping: Decision Making Tools for Puerto Ricans"
-author: "Ashley Louie & Gloria Serra Coch"
----
-<!-- ![Agency Through Mapping](/puerto_rico_now/images/recovery/agency_through_mapping.png) -->
-<img src="/puerto_rico_now/images/recovery/agency_through_mapping.png" alt="Agency Through Mapping" class="full-img">
 
-#### **Puerto Rico Today**
-**Debt and Disaster**
-Following the aftermath of Hurricane Maria in September 2017, Puerto Rico’s electrical grid failed, water systems were inoperable, debris from landslides blocked roads, cellular sites were knocked out, and households were damaged, among the numerous other challenges.[1] This natural disaster put Puerto Rico in the spotlight for relief, but the U.S. Territory had already been struggling with a financial crisis as a consequence of its colonial history and limited sovereignty. Home to 3.5 million residents and homeland to 5 million in the diaspora, Puerto Rico surpassed a point of bankruptcy in 2015, accumulating $72 billion in debt, more than its Gross National product (GNP).[2] The outstanding debt burden had already burdened Puerto Rico from providing adequate services to its people, with the closure of over 150 schools, increased taxes, laying off public workers, shortage of medical specialists, and increasing emigration, unemployment, and food insecurity.[3] Although FEMA plans to provide $2.36 billion dollars in assistance to survivors on the island,[4] much of this relief aid is focused on restoring Puerto Rico to the already vulnerable state it was in prior to the hurricane. The aid of post-hurricane recovery resources presents an optimistic opportunity to invest in the future of Puerto Rico.
+/* *
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
 
-**Taking the Matter into Their Own Hands**
-As disaster funds for Puerto Rico are allocated, how and where funds are distributed reflect the political priorities of those in power. Through its history of colonization, there is wide distrust of the government authorities to appropriately distribute the funds to Puerto Rican communities appropriately. In March 2019, the U.S. Department of Housing and Urban Development announced that they are auditing the funds that were granted to Puerto Rico for hurricane recovery,[5] and a local resident noted that “getting access to information here has always been a struggle.”[6] With the island’s deep history of resistance to colonization and paranoia of the government, Puerto Ricans have developed a great capacity to locally organize to advocate for their own needs.[7] If Puerto Ricans can provide a rational argument that spatializes the needs and priorities of their communities and speaks the language of planners, they can proactively advocate for where relief funds should be allocated. We propose the decision model to be used as a tool for communities to gain agency in mapping their priorities for improvements.
+/**
+ * Basic styling
+ */
+body {
+  font: 400 14px/1.5 'UniversNextW01-Regular',"Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #111111;
+  /* background-color: #fffffd; */
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
 
-#### **A Tool for Advocacy**
-**What are Decision Models?**
-In typical planning methodologies, decision models or Multicriteria Decision Analysis (MCDA) are “tools to augment, enable, or automate the decision-making process... where decision making is complex and/or requires several forms of input information.”[8] In a situation like Puerto Rico, with serious infrastructural damage to infrastructure from Hurricane Maria and many services cut due to austerity, a variety of factors will contribute to a decision making process on where to allocate recovery funds. When place-based decisions are the focus of the analysis, Geographic Information Systems (GIS) enable the evaluation of spatial relationships between layers of information, in which priorities can be weighted to influence a variety of outcomes. By using a decision model, multiple layers of information can help inform a strategy on where to prioritize investment for envisioning future scenarios in Puerto Rico. 
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+.highlight {
+  margin-bottom: 12px; }
 
-The use and implementation of decision models tend to have underlying assumptions, such as their capacity of ensuring consistency and fairness in a process where  “all stakeholders and values weight in toward making the best decisions, and applying them to the right places” and the idea that “the best decisions are based on solid, scientific data rather than emotions or politics.” Because this methodology relies on mathematics, it implies that the process and data are “all we need for objectivity and objectivity may be all we need for fairness” (Meisterlin and Newman).
+/**
+ * `main` element
+ */
+main {
+  display: block;
+  /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
 
-<p class="text">However, this poses the question:
-**The best decisions for whom?**</p>
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle; }
 
-Despite the logical method, data is biased and weighted priorities can favor different outcomes. Decision models should not be understood as objective stand-alone tools, but as a system to weigh the priorities of stakeholders. The potential to represent different values can assist collaborative negotiation and consensus building processes, “where multiple communities with differing priorities must negotiate political (planning) processes for public decision making, data-driven decision support tools have been used to help visualize and describe alternative scenarios and outcomes.” (Meisterlin)
+/**
+ * Figures
+ */
+figure > img {
+  display: block; }
 
-![Decision Model](/puerto_rico_now/images/recovery/DecisionModel.jpg)
+figcaption {
+  font-size: 14px; }
 
-If we can teach community leaders how to read into the assumptions of maps created through MCDA and use the tool to promote their own values, we can equip them with the knowledge and tools to defend their own priorities. Our goal is to empower communities to use the decision model as a participatory tool for advocacy and negotiation.
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: 30px; }
 
-**Decision Mapping for Puerto Ricans**
-This project is an empowering data and mapping literacy initiative to offer a new tool to a community that is ready to use it to push for their own needs with two main objectives. Firstly, decision based maps can be used to *document community values* by spatially recording information about Puerto Rican priorities in a map to imagine a future for the island. Secondly, these maps can be used as an *advocacy tool for local leaders to communicate the needs of their communities* within the language of planning ‘experts’ to rationally stake a claim for areas that should be prioritized for improvements.
+li > ul,
+li > ol {
+  margin-bottom: 0; }
 
-**Balancing Values**
-<p class="text">We pose the decision model methodology with the following objectives:</p>
-  1. All Puerto Ricans have the right to live in a community with access to adequate resources and basic services.
-  2. All communities should be restored and resilient to future disaster risks.
-  3. Recovery investment should be allocated to provide resources to strengthen the economy.
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
 
-#### **Conflicting Interests**
-In order to demonstrate potentially conflicting stakeholder values, which can conclude in different visions for the future of Puerto Rico, we’ve created three fictional characters based on the narratives of perspectives and experiences that Puerto Ricans can relate to. Although fictional and exaggerated, the characterization of stakeholders is useful to illustrate how differences in priorities affect the final decision output.
+/**
+ * Links
+ */
+a {
+  color: #000000;
+  text-decoration: underline; }
+  a:visited {
+    color: #000000; }
+  a:hover {
+    color: #111;
+    text-decoration: underline; }
+  .social-media-list a:hover {
+    text-decoration: none; }
+    .social-media-list a:hover .username {
+      text-decoration: underline; }
 
-#### **The Stakeholders**
-<img src="/puerto_rico_now/images/recovery/Valeria.png" alt="Valeria" width="300" align="center">
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: #828282;
+  border-left: 4px solid #000000;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-style: italic; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
 
-<p class="text">Name: **Valeria**</p>
+/**
+ * Wrapper
+ */
+.wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+  align-content: center;
+  }
+  @media screen and (max-width: 800px) {
+    .wrapper {
+      max-width: -webkit-calc(800px - (30px));
+      max-width: calc(800px - (30px));
+      padding-right: 15px;
+      padding-left: 15px; }
+    }
+  }
 
-<p class="text">Representative Group: **grassroots community local leader**</p>
+.content-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-<p class="text">Priorities: **long-term well-being of the community**</p>
-  - Prioritize underserved communities
-  - Long-term community resilience
-  - Access to infrastructure services
-  - Build robust economy
+/**
+ * Clearfix
+ */
+.wrapper:after, .footer-col-wrapper:after {
+  content: "";
+  display: table;
+  clear: both; }
 
-Valeria used to teach at José Meléndez Ayala school, in Boquillas, but after its closure, she had to relocate. However, she feels lucky because she still has a job, not like most of her former colleagues. Her daughter, Tania, and her have to wake up very early every morning because the new school is much further. The classes are overcrowded and there are rats in the cafe but they are lucky because Tania is still able to go to school and they have a salary to support them. Valeria spends the day working at the school and the night in community meetings, where she works with other people in the village to find ways to provide what the government won’t and the community still needs. Her days are long and she often things about quitting, the badly paid job at the school or the fight, but she knows that both the kids, her extended family and the community need her.
+/**
+ * Icons
+ */
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: #828282;
+  padding-right: 5px;
+  vertical-align: text-top; }
 
-<p class="text">Testimonials:</p>
-- *“This is a moment of opportunity, even if we are the most hurt by the hurricane we can use this to change long term issues that have been affecting Puerto Rico before this” 
-- “We want to ensure access to underserved priorities”
-- “Our concerns are longer term than the hurricane, we want to address the debt crisis and how it has affected the public services for the community”
-- “Tania Ginés was fighting for 10 months to avoid the closure of her daughter’s public school. In the end, she lost the battle. Now, the children need to go to a further school, where there are more than 40 students per class, rats in the cafeteria, no therapists for special education children” ”
-- Tania: “It is like I say, I mean, I didn’t borrow, my children did not borrow!”* [9]
+.social-media-list li + li {
+  padding-top: 5px; }
 
-<img src="/puerto_rico_now/images/recovery/CommunityLeader_layers.jpg" alt="Community Leader Data Layers Mapped" width="300" float="right">
+/**
+ * Tables
+ */
+table {
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: left;
+  color: #3f3f3f;
+  border-collapse: collapse;
+  border: 1px solid #000000; }
+  table tr:nth-child(even) {
+    background-color: #f7f7f7; }
+  table th, table td {
+    padding: 10px 15px; }
+  table th {
+    background-color: #f0f0f0;
+    border: 1px solid #dedede;
+    border-bottom-color: #c9c9c9; }
+  table td {
+    border: 1px solid #000000; }
 
-<p class="text">Data Layers Mapped:</p>
-  - Population density
-  - Community services
-  - Health services
-  - Education services
+/**
+ * Site header
+ */
+.site-header {
+  border-top: 0px solid #424242;
+  border-bottom: 1px solid #000000;
+  min-height: 55.95px;
+  position: relative; }
 
-![Community Leader Decision Model](/puerto_rico_now/images/recovery/CommunityLeader_maps.jpg)
+.site-title {
+  font-size: 26px;
+  font-weight: 300;
+  /* line-height: 54px; */
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  text-decoration: none;
+  float: left; }
+  .site-title, .site-title:visited {
+    color: #424242; }
 
-<img src="/puerto_rico_now/images/recovery/Maria.png" alt="María" class="img-left">
+.site-nav {
+  float: right;
+  line-height: 66px; }
+  .site-nav .nav-trigger {
+    display: none; }
+  .site-nav .menu-icon {
+    display: none; }
+  .site-nav .page-link {
+    color: #111;
+    line-height: 1.5; }
+    .site-nav .page-link:not(:last-child) {
+      margin-right: 20px; }
+  @media screen and (max-width: 600px) {
+    .site-nav {
+      position: absolute;
+      top: 9px;
+      right: 15px;
+      background-color: #fdfdfd;
+      border: 1px solid #000000;
+      border-radius: 5px;
+      text-align: right; }
+      .site-nav label[for="nav-trigger"] {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 36px;
+        z-index: 2;
+        cursor: pointer; }
+      .site-nav .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center; }
+        .site-nav .menu-icon > svg {
+          fill: #424242; }
+      .site-nav input ~ .trigger {
+        clear: both;
+        display: none; }
+      .site-nav input:checked ~ .trigger {
+        display: block;
+        padding-bottom: 5px; }
+      .site-nav .page-link {
+        display: block;
+        padding: 5px 10px;
+        margin-left: 20px; }
+        .site-nav .page-link:not(:last-child) {
+          margin-right: 0; } }
+    }
 
-<p class="text-right">Name: **María**</p>
+/**
+ * Site footer
+ */
+.site-footer {
+  border-top: 1px solid #000000;
+  padding: 1px }
 
-<p class="text-right">Representative Group: **middle class from Puerto Rico; some have emigrated to the mainland but still have close ties to the island.**</p>
+.footer-heading {
+  font-size: 14px;
+  margin-bottom: 15px; }
 
-<p class="text-right">Priorities: **recovery and resilience**</p>
-  - Ensure the resilience of developed areas
-  - Recover from Hurricane Maria damage 
-  - Reduce risk from future threats (i.e. hurricanes, flood inundation, landslides, etc.)
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0; }
 
-María used to teach at Universidad de Puerto Rico in Mayaguez, but she got nominated for research as marine biologist? and was offered a position in UCLA that a young academic like her could not turn down. Although she spends most of her time in Los Angeles  her closest friends are still in Puerto Rico and she travels there very often. The news of the hurricane highly strook her and losing contact of her loved ones made her realized how precious they were for her. In a similar way, seeing the island destroyed awakened nostalgic feelings of her life there, driving her to get more involved in its recovery.
+.footer-col-wrapper {
+  font-size: 11px;
+  color: #000000;
+  margin-left: -15px;
+    line-height:125%;
+    font-style:italic;}
 
-<p class="text">Testimonials:</p>
-- *“This was a terrible catastrophe for the island, we want to ensure that a disaster like that never happens again”
-- “We want to participate in rebuilding the island after the hurricane”
-- “It was the 70’s. Teresa was a young mother with two children an a house in the suburbs. She was a pharmaceutical chemist. The family had two sources of income: hers and her husband’s. They were the typical Puerto Rican middle class family.”* [10]
+.footer-col {
+  float: left;
+  margin-bottom: 15px;
+  padding-left: 15px; }
 
-<img src="/puerto_rico_now/images/recovery/RecoveryResilience_layers.jpg" alt="Recovery & Resilience Data Layers Mapped" width="300" float="right">
+.footer-col-1 {
+  width: -webkit-calc(35% - (30px / 2));
+  width: calc(35% - (30px / 2)); }
 
-<p class="text">Data Layers Mapped:</p>
-  - Population density
-  - Days without power
-  - Flood risk zones
-  - Hurricane Maria damage
+.footer-col-2 {
+  width: -webkit-calc(20% - (30px / 2));
+  width: calc(20% - (30px / 2)); }
 
-![Recovery & Resilience Decision Model](/puerto_rico_now/images/recovery/RecoveryResilience_maps.jpg)
+.footer-col-3 {
+  width: -webkit-calc(45% - (30px / 2));
+  width: calc(45% - (30px / 2)); }
 
-<img src="/puerto_rico_now/images/recovery/Bill.png" alt="Bill" width="300" align="center">
+@media screen and (max-width: 800px) {
+  .footer-col-1,
+  .footer-col-2 {
+    width: -webkit-calc(50% - (30px / 2));
+    width: calc(50% - (30px / 2)); }
 
-<p class="text">Name: **Bill**</p>
+  .footer-col-3 {
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2)); } }
+@media screen and (max-width: 600px) {
+  .footer-col {
+    float: none;
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2)); } }
+/**
+ * Page content
+ */
+.page-content {
+  padding: 30px 0;
+  flex: 1; }
 
-<p class="text">Representative Group: **real estate speculators, finance that funds them and 1% of Puerto Rican society that supports this development**</p>
+.page-heading {
+  font-size: 32px; }
 
-<p class="text">Priorities: **attracting capital for the island and develop areas of the island in a more profitable way**</p>
-  - Improve areas with high economic growth potential
-  - Provide resources to resort and leisure developments
-  - Beautify tourist destination areas for profitability
+.post-list-heading {
+  font-size: 28px; }
 
-Bill runs a real estate company, like his father, Bill Sr., did before him. He considers himself a true New Yorker and loves to stare at the lights of the city that never sleeps from the back of the car after a long work day downtown. His father could not understand the drive of the city but Bill keeps imagining how he could change his mind by showing him the views from his office. He has been thinking about him lately due to a big investment that his firm is in the process of making. His father always told him that disasters are profitable for those who know how to make profit and that’s what he is going to do in Puerto Rico. The hurricane has not only clear extensions of land for development but also attracted the attention of investors that see it as an opportunity to redraw the profile of the place for a more profitable scenario: tourism. Bill knew that they had to move fast to secure their share of the cake but, after partnering with a local business leaders, he know he has more than the foot on the door.
+.post-list {
+  margin-left: 0;
+  list-style: none; }
+  .post-list > li {
+    margin-bottom: 30px; }
 
-<img src="/puerto_rico_now/images/recovery/ExternalInvestor_layers.jpg" alt="External Investor Data Layers Mapped" width="300" float="right">
+.post-meta {
+  font-size: 12px;
+  color: #000000; }
 
-<p class="text">Data Layers Mapped:</p>
-  - Hotels
-  - Outdoor leisure
-  - Urban and historic tourist destinations
-  - Development areas
+.post-link {
+  display: block;
+  padding-top: .5em;
+  font-size: 14px;
+ text-decoration: none}
 
-![External Investor Decision Model](/puerto_rico_now/images/recovery/ExternalInvestor_maps.jpg)
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: 30px; }
 
-#### **Weighing Stakeholder Values**
-![Puerto Rico Decision Model](/puerto_rico_now/images/recovery/DecisionModel2.jpg)
+.post-title {
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 1; }
+  @media screen and (max-width: 800px) {
+    .post-title {
+      font-size: 24px; } }
 
-![Puerto Rico Decision Model Weights](/puerto_rico_now/images/recovery/DecisionModel_weights.jpg)
+.post-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px; }
+  .post-content h2 {
+    font-size: 32px; }
+    @media screen and (max-width: 800px) {
+      .post-content h2 {
+        font-size: 28px; } }
+  .post-content h3 {
+    font-size: 26px; }
+    @media screen and (max-width: 800px) {
+      .post-content h3 {
+        font-size: 22px; } }
+  .post-content h4 {
+    font-size: 20px; }
+    @media screen and (max-width: 800px) {
+      .post-content h4 {
+        font-size: 18px; } }
 
-![Puerto Rico Decision Model Combined Outcome](/puerto_rico_now/images/recovery/DecisionMap.gif)
+.post-content > p:not(p) > .full-image, .post-content > h4, .post-content > strong {
+ margin: auto auto 12 0;
+}
+.post-content > ul {
+  margin: auto auto 12 30;
+}
 
-#### **Discussion**
-All the maps show a range of shades, from lighter to darker. Darker shades mean higher values, which also mean that those areas should be prioritized when deciding how to allocate resources in puerto Rico. 
+.post-meta{
+  color: #111111
+}
+/**
+ * Syntax highlighting styles
+ */
+/* .highlight {
+  background: #fff; }
+  .highlighter-rouge .highlight {
+    background: #eef; }
+  .highlight .c {
+    color: #998;
+    font-style: italic; }
+  .highlight .err {
+    color: #a61717;
+    background-color: #e3d2d2; }
+  .highlight .k {
+    font-weight: bold; }
+  .highlight .o {
+    font-weight: bold; }
+  .highlight .cm {
+    color: #998;
+    font-style: italic; }
+  .highlight .cp {
+    color: #999;
+    font-weight: bold; }
+  .highlight .c1 {
+    color: #998;
+    font-style: italic; }
+  .highlight .cs {
+    color: #999;
+    font-weight: bold;
+    font-style: italic; }
+  .highlight .gd {
+    color: #000;
+    background-color: #fdd; }
+  .highlight .gd .x {
+    color: #000;
+    background-color: #faa; }
+  .highlight .ge {
+    font-style: italic; }
+  .highlight .gr {
+    color: #a00; }
+  .highlight .gh {
+    color: #999; }
+  .highlight .gi {
+    color: #000;
+    background-color: #dfd; }
+  .highlight .gi .x {
+    color: #000;
+    background-color: #afa; }
+  .highlight .go {
+    color: #888; }
+  .highlight .gp {
+    color: #555; }
+  .highlight .gs {
+    font-weight: bold; }
+  .highlight .gu {
+    color: #aaa; }
+  .highlight .gt {
+    color: #a00; }
+  .highlight .kc {
+    font-weight: bold; }
+  .highlight .kd {
+    font-weight: bold; }
+  .highlight .kp {
+    font-weight: bold; }
+  .highlight .kr {
+    font-weight: bold; }
+  .highlight .kt {
+    color: #458;
+    font-weight: bold; }
+  .highlight .m {
+    color: #099; }
+  .highlight .s {
+    color: #d14; }
+  .highlight .na {
+    color: #008080; }
+  .highlight .nb {
+    color: #0086B3; }
+  .highlight .nc {
+    color: #458;
+    font-weight: bold; }
+  .highlight .no {
+    color: #008080; }
+  .highlight .ni {
+    color: #800080; }
+  .highlight .ne {
+    color: #900;
+    font-weight: bold; }
+  .highlight .nf {
+    color: #900;
+    font-weight: bold; }
+  .highlight .nn {
+    color: #555; }
+  .highlight .nt {
+    color: #000080; }
+  .highlight .nv {
+    color: #008080; }
+  .highlight .ow {
+    font-weight: bold; }
+  .highlight .w {
+    color: #bbb; }
+  .highlight .mf {
+    color: #099; }
+  .highlight .mh {
+    color: #099; }
+  .highlight .mi {
+    color: #099; }
+  .highlight .mo {
+    color: #099; }
+  .highlight .sb {
+    color: #d14; }
+  .highlight .sc {
+    color: #d14; }
+  .highlight .sd {
+    color: #d14; }
+  .highlight .s2 {
+    color: #d14; }
+  .highlight .se {
+    color: #d14; }
+  .highlight .sh {
+    color: #d14; }
+  .highlight .si {
+    color: #d14; }
+  .highlight .sx {
+    color: #d14; }
+  .highlight .sr {
+    color: #009926; }
+  .highlight .s1 {
+    color: #d14; }
+  .highlight .ss {
+    color: #990073; }
+  .highlight .bp {
+    color: #999; }
+  .highlight .vc {
+    color: #008080; }
+  .highlight .vg {
+    color: #008080; }
+  .highlight .vi {
+    color: #008080; }
+  .highlight .il {
+    color: #099; }
 
-In Valeria’s map, we can see how the distribution is very spread out throughout the island, which indicates that all the Island is in need of more resources. In the case of Maria’s map, we can detect higher values on the North East coast of the Island. In this case, this area is prioritized because it was the most damaged by the hurricane, according to FEMA data, while also having higher density of population potentially affected by it. In the case of Bill, we can see how his map highly prioritizes coastal areas and urban centres. This is a result of being tourist locations and also areas with more potential for development. This map also shows a more unequal distribution, with the mentioned concentrated areas valued very high and the rest of the island valued very low. 
+    #students{
+        font-size:36px;
+        letter-spacing:2px;
+      text-transform: uppercase;
 
-If Valeria, Maria and Bill were on a meeting with all of them advocating for their own priorities, different results could be met. In the case of the three of them having the same type of agency and agreeing to balance their values, coastal and urban areas would still be prioritized, specially places like San Juan or El Ponce. However, certain central municipalities would still be given high values, such as the northern area of Utuado, Ciales or south of Coamo. In general, the maps also show how the municipality division are not a good spatial unit to distribute the resources, as their boundaries hardly match the different shades of prioritization. 
+    }
+    #separator{
+        color:#6097ce;
+    }
+    #semester{
+        color:#e08e2b;
+    }
+    #rTitle{
+        color:#e08e2b;
+        font-size:18px;
+    }
+    #rItem{
+        font-size:12px;
+        letter-spacing:1px;
+        margin-left:20px;
+    }
+    #slideBullet{
+        color:red;
+    }
+    #t1{color:#6097ce}
+    #t6{color:#e08e2b}
+  .p-name{display:none;}
+  .footer-heading{display:none;} */
 
-If Maria and Valeria, the two puerto ricans, would align and impose their values, they would be able to press for more attention in the central areas of the Island, especially on the East side, arguing that they were more damaged by the hurricane and need more recovery funds. In addition, they could also argue for more access to services for the population, in municipalities like Villalba and Jayuya. 
-
-On the other side, if Maria decided to partner with Bill in order to focus on building a more competitive economy on the Island, rural areas would be more neglected, with the resources allocated in the coastal regions and the urban centers of population. San Juan, Ponce and Mumacao would receive the higher investment in that case.
 
 
-#### **Potential for Conflict Resolution**
-**What is the impact?**
-Breaking down the mapped decision model allows us to relate to the values of each character in the fictional advocacy scenario in order to collectively visualize the possible futures of Puerto Rico.
+.post__img {
+    overflow:hidden;
+    position:relative;
+    padding-bottom:100%
+}
 
---
+.post__img img{
+    position:absolute;
+    /* padding-bottom: .5em; */
+    max-width: 100%;
+    max-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%)
+}
 
-**Data Sources**
+.full-img {
+  max-width:none;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+}
 
-1. Annual Population Estimates for Puerto Rico by Municipality. [shapefile] . Planning board. April 2018
-2. Buildings. [shapefile] HotOSM via Humanitarian Data Exchange. 2018
-3. Points of Interest. [shapefile] HotOSM via Humanitarian Data Exchange. 2018
-4. Puerto Rico Planning Board Flood Maps
-5. Damage Assessment. [shapefile] FEMA. 2017
-6. Hotels. Google places [shapefile] scraped from website. 2019
-7. Sites of Interest. Discover Puerto Rico - Tourism website [shapefiles] scraped from website on 2019
-8. Map of soil classification under the Land Use Plan (2015). [shapefile] Planning Board, Office of the Governor, Commonwealth of Puerto Rico. Oct 2017
+.img-left {
+  position: relative;
+  display: block;
+  max-width: 50%;
+  left: 0px;
+}
 
-
-**References**
-
-1. “Hurricane Maria.” FEMA, U.S. Department of Homeland Security. March 14, 2019. <https://www.fema.gov/hurricane-maria>.
-2. Bannan, Natasha L. Puerto Rico’s Odious Debt: The Economic Crisis of Colonialism, 19 CUNY L. Rev. 287 (2016). <https://academicworks.cuny.edu/clr/vol19/iss2/5/>.
-3. Bannan, Natasha L.
-4. “Hurricane Maria.”
-5. Wiscovitch, Jeniffer. “HUD’s Inspector General is Auditing Part of the Disaster Funds for Puerto Rico.” Centro de Periodismo Investigativo. March 28, 2019. <http://periodismoinvestigativo.com/2019/03/huds-inspector-general-is-auditing-part-of-the-disaster-funds-for-puerto-rico/>.
-6. Florido, Adrian. “Puerto Ricans Want Their Government To Be More Transparent.” National Public Radio, Inc. November 19, 2018. <https://www.npr.org/2018/11/19/669145225/post-maria-puerto-ricans-want-their-government-to-be-more-transparent>.
-7. Laughland, Oliver. “‘I’m not fatalistic’: Naomi Klein on Puerto Rico, austerity and the left.” The Guardian. Aug 8, 2018. <https://www.theguardian.com/world/2018/aug/08/naomi-klein-interview-puerto-rico-the-battle-for-paradise>.
-8. Meisterlin, Leah. "Multicriteria Decision Analysis." Geographic Information Systems, PLANA4577, Columbia University Graduate School of Architecture, Planning and Preservation. Lecture 2017.
-9. Transcripción: Deuda. Postcast: Radio Ambulante. Luis Trelles. 2016
-http://radioambulante.org/transcripcion/transcripcion-deuda
-10. Transcripción: Deuda. Postcast: Radio Ambulante. Luis Trelles. 2016
-http://radioambulante.org/transcripcion/transcripcion-deuda
+.text-right {
+  max-width: 50%;
+  position: relative;
+  display: block;
+  background-color: #ccc;
+}
