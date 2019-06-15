@@ -74,7 +74,7 @@ Valeria used to teach at José Meléndez Ayala school, in Boquillas, but after i
 
 ![Community Leader Decision Model](/puerto_rico_now/images/recovery/CommunityLeader_maps.jpg)
 
-<p class="img-left"><img src="/puerto_rico_now/images/recovery/Maria.png" alt="María" width="300" align="center"></p>
+<img src="/puerto_rico_now/images/recovery/Maria.png" alt="María" class="img-left">
 
 <p class="text-right">Name: **María**</p>
 
