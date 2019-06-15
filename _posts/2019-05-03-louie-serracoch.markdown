@@ -74,13 +74,13 @@ Valeria used to teach at José Meléndez Ayala school, in Boquillas, but after i
 
 ![Community Leader Decision Model](/puerto_rico_now/images/recovery/CommunityLeader_maps.jpg)
 
-<img src="/puerto_rico_now/images/recovery/Maria.png" alt="María" width="300" align="center">
+<p class="img-left"><img src="/puerto_rico_now/images/recovery/Maria.png" alt="María" width="300" align="center"></p>
 
-<p class="text">Name: **María**</p>
+<p class="text-right">Name: **María**</p>
 
-<p class="text">Representative Group: **middle class from Puerto Rico; some have emigrated to the mainland but still have close ties to the island.**</p>
+<p class="text-right">Representative Group: **middle class from Puerto Rico; some have emigrated to the mainland but still have close ties to the island.**</p>
 
-<p class="text">Priorities: **recovery and resilience**</p>
+<p class="text-right">Priorities: **recovery and resilience**</p>
   - Ensure the resilience of developed areas
   - Recover from Hurricane Maria damage 
   - Reduce risk from future threats (i.e. hurricanes, flood inundation, landslides, etc.)
