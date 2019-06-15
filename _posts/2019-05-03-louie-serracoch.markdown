@@ -33,7 +33,7 @@ If we can teach community leaders how to read into the assumptions of maps creat
 **Decision Mapping for Puerto Ricans**
 This project is an empowering data and mapping literacy initiative to offer a new tool to a community that is ready to use it to push for their own needs with two main objectives. Firstly, decision based maps can be used to *document community values* by spatially recording information about Puerto Rican priorities in a map to imagine a future for the island. Secondly, these maps can be used as an *advocacy tool for local leaders to communicate the needs of their communities* within the language of planning ‘experts’ to rationally stake a claim for areas that should be prioritized for improvements.
 
-**Balancing Values**
+<p class="text">**Balancing Values**</p>
 <p class="text">We pose the decision model methodology with the following objectives:</p>
   1. All Puerto Ricans have the right to live in a community with access to adequate resources and basic services.
   2. All communities should be restored and resilient to future disaster risks.
@@ -64,23 +64,23 @@ Valeria used to teach at José Meléndez Ayala school, in Boquillas, but after i
 - “Tania Ginés was fighting for 10 months to avoid the closure of her daughter’s public school. In the end, she lost the battle. Now, the children need to go to a further school, where there are more than 40 students per class, rats in the cafeteria, no therapists for special education children” ”
 - Tania: “It is like I say, I mean, I didn’t borrow, my children did not borrow!”* [9]
 
-<img src="/puerto_rico_now/images/recovery/CommunityLeader_layers.jpg" alt="Community Leader Data Layers Mapped" width="300" float="right">
+<img src="/puerto_rico_now/images/recovery/CommunityLeader_layers.jpg" alt="Community Leader Data Layers Mapped" class="img-left">
 
-<p class="text">Data Layers Mapped:</p>
+<p class="text-right">Data Layers Mapped:</br>
   - Population density
   - Community services
   - Health services
-  - Education services
+  - Education services</p>
 
 ![Community Leader Decision Model](/puerto_rico_now/images/recovery/CommunityLeader_maps.jpg)
 
-<img src="/puerto_rico_now/images/recovery/Maria.png" alt="María" class="img-left">
+<img src="/puerto_rico_now/images/recovery/Maria.png" alt="María" width="300" align="center">
 
-<p class="text-right">Name: **María**</p>
+<p class="text">Name: **María**</p>
 
-<p class="text-right">Representative Group: **middle class from Puerto Rico; some have emigrated to the mainland but still have close ties to the island.**</p>
+<p class="text">Representative Group: **middle class from Puerto Rico; some have emigrated to the mainland but still have close ties to the island.**</p>
 
-<p class="text-right">Priorities: **recovery and resilience**</p>
+<p class="text">Priorities: **recovery and resilience**</p>
   - Ensure the resilience of developed areas
   - Recover from Hurricane Maria damage 
   - Reduce risk from future threats (i.e. hurricanes, flood inundation, landslides, etc.)
