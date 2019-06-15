@@ -34,7 +34,7 @@ If we can teach community leaders how to read into the assumptions of maps creat
 This project is an empowering data and mapping literacy initiative to offer a new tool to a community that is ready to use it to push for their own needs with two main objectives. Firstly, decision based maps can be used to *document community values* by spatially recording information about Puerto Rican priorities in a map to imagine a future for the island. Secondly, these maps can be used as an *advocacy tool for local leaders to communicate the needs of their communities* within the language of planning ‘experts’ to rationally stake a claim for areas that should be prioritized for improvements.
 
 **Balancing Values**
-We pose the decision model methodology with the following objectives:
+<p class="text">We pose the decision model methodology with the following objectives:</p>
   1. All Puerto Ricans have the right to live in a community with access to adequate resources and basic services.
   2. All communities should be restored and resilient to future disaster risks.
   3. Recovery investment should be allocated to provide resources to strengthen the economy.
@@ -45,11 +45,11 @@ In order to demonstrate potentially conflicting stakeholder values, which can co
 #### **The Stakeholders**
 <img src="/puerto_rico_now/images/recovery/Valeria.png" alt="Valeria" width="300" align="center">
 
-Name: **Valeria**
+<p class="text">Name: **Valeria**</p>
 
-Representative Group: **grassroots community local leader**
+<p class="text">Representative Group: **grassroots community local leader**</p>
 
-Priorities: **long-term well-being of the community**
+<p class="text">Priorities: **long-term well-being of the community**</p>
   - Prioritize underserved communities
   - Long-term community resilience
   - Access to infrastructure services
@@ -57,7 +57,7 @@ Priorities: **long-term well-being of the community**
 
 Valeria used to teach at José Meléndez Ayala school, in Boquillas, but after its closure, she had to relocate. However, she feels lucky because she still has a job, not like most of her former colleagues. Her daughter, Tania, and her have to wake up very early every morning because the new school is much further. The classes are overcrowded and there are rats in the cafe but they are lucky because Tania is still able to go to school and they have a salary to support them. Valeria spends the day working at the school and the night in community meetings, where she works with other people in the village to find ways to provide what the government won’t and the community still needs. Her days are long and she often things about quitting, the badly paid job at the school or the fight, but she knows that both the kids, her extended family and the community need her.
 
-Testimonials:
+<p class="text">Testimonials:</p>
 - *“This is a moment of opportunity, even if we are the most hurt by the hurricane we can use this to change long term issues that have been affecting Puerto Rico before this” 
 - “We want to ensure access to underserved priorities”
 - “Our concerns are longer term than the hurricane, we want to address the debt crisis and how it has affected the public services for the community”
@@ -66,7 +66,7 @@ Testimonials:
 
 <img src="/puerto_rico_now/images/recovery/CommunityLeader_layers.jpg" alt="Community Leader Data Layers Mapped" width="300" float="right">
 
-Data Layers Mapped:
+<p class="text">Data Layers Mapped:</p>
   - Population density
   - Community services
   - Health services
@@ -76,25 +76,25 @@ Data Layers Mapped:
 
 <img src="/puerto_rico_now/images/recovery/Maria.png" alt="María" width="300" align="center">
 
-Name: **María**
+<p class="text">Name: **María**</p>
 
-Representative Group: **middle class from Puerto Rico; some have emigrated to the mainland but still have close ties to the island.**
+<p class="text">Representative Group: **middle class from Puerto Rico; some have emigrated to the mainland but still have close ties to the island.**</p>
 
-Priorities: **recovery and resilience**
+<p class="text">Priorities: **recovery and resilience**</p>
   - Ensure the resilience of developed areas
   - Recover from Hurricane Maria damage 
   - Reduce risk from future threats (i.e. hurricanes, flood inundation, landslides, etc.)
 
 María used to teach at Universidad de Puerto Rico in Mayaguez, but she got nominated for research as marine biologist? and was offered a position in UCLA that a young academic like her could not turn down. Although she spends most of her time in Los Angeles  her closest friends are still in Puerto Rico and she travels there very often. The news of the hurricane highly strook her and losing contact of her loved ones made her realized how precious they were for her. In a similar way, seeing the island destroyed awakened nostalgic feelings of her life there, driving her to get more involved in its recovery.
 
-Testimonials:
+<p class="text">Testimonials:</p>
 - *“This was a terrible catastrophe for the island, we want to ensure that a disaster like that never happens again”
 - “We want to participate in rebuilding the island after the hurricane”
 - “It was the 70’s. Teresa was a young mother with two children an a house in the suburbs. She was a pharmaceutical chemist. The family had two sources of income: hers and her husband’s. They were the typical Puerto Rican middle class family.”* [10]
 
 <img src="/puerto_rico_now/images/recovery/RecoveryResilience_layers.jpg" alt="Recovery & Resilience Data Layers Mapped" width="300" float="right">
 
-Data Layers Mapped:
+<p class="text">Data Layers Mapped:</p>
   - Population density
   - Days without power
   - Flood risk zones
@@ -104,11 +104,11 @@ Data Layers Mapped:
 
 <img src="/puerto_rico_now/images/recovery/Bill.png" alt="Bill" width="300" align="center">
 
-Name: **Bill**
+<p class="text">Name: **Bill**</p>
 
-Representative Group: **real estate speculators, finance that funds them and 1% of Puerto Rican society that supports this development**
+<p class="text">Representative Group: **real estate speculators, finance that funds them and 1% of Puerto Rican society that supports this development**</p>
 
-Priorities: **attracting capital for the island and develop areas of the island in a more profitable way**
+<p class="text">Priorities: **attracting capital for the island and develop areas of the island in a more profitable way**</p>
   - Improve areas with high economic growth potential
   - Provide resources to resort and leisure developments
   - Beautify tourist destination areas for profitability
@@ -117,7 +117,7 @@ Bill runs a real estate company, like his father, Bill Sr., did before him. He c
 
 <img src="/puerto_rico_now/images/recovery/ExternalInvestor_layers.jpg" alt="External Investor Data Layers Mapped" width="300" float="right">
 
-Data Layers Mapped:
+<p class="text">Data Layers Mapped:</p>
   - Hotels
   - Outdoor leisure
   - Urban and historic tourist destinations
