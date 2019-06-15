@@ -368,6 +368,13 @@ table {
       .post-content h4 {
         font-size: 18px; } }
 
+.post-content > p, .post-content > h4 {
+ margin: auto auto 12 0;
+}
+.post-content > ul {
+  margin: auto auto 12 30;
+}
+
 .post-meta{
   color: #111111
 }
