@@ -21,8 +21,8 @@ In typical planning methodologies, decision models or Multicriteria Decision Ana
 
 The use and implementation of decision models tend to have underlying assumptions, such as their capacity of ensuring consistency and fairness in a process where  “all stakeholders and values weight in toward making the best decisions, and applying them to the right places” and the idea that “the best decisions are based on solid, scientific data rather than emotions or politics.” Because this methodology relies on mathematics, it implies that the process and data are “all we need for objectivity and objectivity may be all we need for fairness” (Meisterlin and Newman).
 
-However, this poses the question:
-**The best decisions for whom?**
+<p class="test">However, this poses the question:
+**The best decisions for whom?**</p>
 
 Despite the logical method, data is biased and weighted priorities can favor different outcomes. Decision models should not be understood as objective stand-alone tools, but as a system to weigh the priorities of stakeholders. The potential to represent different values can assist collaborative negotiation and consensus building processes, “where multiple communities with differing priorities must negotiate political (planning) processes for public decision making, data-driven decision support tools have been used to help visualize and describe alternative scenarios and outcomes.” (Meisterlin)
 
