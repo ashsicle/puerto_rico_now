@@ -243,6 +243,7 @@ table {
         margin-left: 20px; }
         .site-nav .page-link:not(:last-child) {
           margin-right: 0; } }
+    }
 
 /**
  * Site footer
@@ -362,7 +363,7 @@ table {
       .post-content h4 {
         font-size: 18px; } }
 
-.post-content > p.text, .post-content > h4, .post-content > strong {
+.post-content > p:not(p) > .full-image, .post-content > h4, .post-content > strong {
  margin: auto auto 12 0;
 }
 .post-content > ul {
@@ -567,4 +568,18 @@ table {
   margin-left: auto;
   margin-right: auto;
   width: 100vw;
+}
+
+.img-left {
+  max-width: 50%;
+  position: relative;
+  display: block;
+  left: 0px;
+}
+
+.text-right {
+  max-width: 50%;
+  position: relative;
+  display: block;
+  background-color: #ccc;
 }
