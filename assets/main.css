@@ -571,9 +571,9 @@ table {
 }
 
 .img-left {
+  max-width: 50%;
   position: relative;
   display: block;
-  max-width: 50%;
   left: 0px;
 }
 
@@ -581,5 +581,5 @@ table {
   max-width: 50%;
   position: relative;
   display: block;
-  left: 50vw;
+  float: left;
 }
