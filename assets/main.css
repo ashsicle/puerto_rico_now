@@ -577,6 +577,7 @@ table {
 }
 
 .img-left {
+  max-width: 50%;
   position: relative;
   display: block;
 }
@@ -587,9 +588,13 @@ table {
   display: block;
   float: left;
   text-align: left;
-  margin: -150 auto 12 385;
+  margin: -300 auto 12 385;
 }
 
 .list-right {
-  margin: -150 auto 12 385;
+  position: relative;
+  display: block;
+  float: left;
+  text-align: left;
+  margin: -300 auto 12 385;
 }
