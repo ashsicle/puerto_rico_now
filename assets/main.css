@@ -574,7 +574,7 @@ table {
   max-width: 50%;
   position: relative;
   display: block;
-  left: 0px;
+  margin: auto auto 12 0;
 }
 
 .text-right {
@@ -582,4 +582,6 @@ table {
   position: relative;
   display: block;
   float: left;
+  text-align: left;
+  margin: -100 auto 12 400;
 }
