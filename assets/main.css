@@ -369,7 +369,7 @@ table {
       .post-content h4 {
         font-size: 18px; } }
 
-.post-content > p:not(p) > .full-image, .post-content > h4, .post-content > strong, .post-content > p.text, .post-content > p.img-left, .post-content > p:not(p) > p.text-right, .post-content > p:not(p) > p > ul.list-right {
+.post-content > p:not(p) > .full-image, .post-content > h4, .post-content > strong, .post-content > p.text, .post-content > p.img-left, .post-content > p:not(p) > p.text-right, .post-content > p:not(p) > ul.list-right {
  margin: auto auto 12 0;
 }
 .post-content > ul {
