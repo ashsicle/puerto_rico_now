@@ -66,15 +66,13 @@ Valeria used to teach at José Meléndez Ayala school, in Boquillas, but after i
 
 <img src="/puerto_rico_now/images/recovery/CommunityLeader_layers.jpg" alt="Community Leader Data Layers Mapped" class="img-left">
 
-<p class="text-right">Data Layers Mapped:
+<p class="text-right">Data Layers Mapped:</p>
 
-  - Population density
-
-  - Community services
-
-  - Health services
-  
-  - Education services</p>
+<ul class="text-right">
+  <li>Population density</li>
+  <li>Community services</li>
+  <li>Education services</li>
+</ul>
 
 ![Community Leader Decision Model](/puerto_rico_now/images/recovery/CommunityLeader_maps.jpg)
 
