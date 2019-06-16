@@ -68,7 +68,7 @@ Valeria used to teach at José Meléndez Ayala school, in Boquillas, but after i
 
 <p class="text-right">Data Layers Mapped:</p>
 
-<ul class="text-right">
+<ul class="list-right">
   <li>Population density</li>
   <li>Community services</li>
   <li>Education services</li>
