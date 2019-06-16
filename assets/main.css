@@ -122,6 +122,12 @@ blockquote {
       padding-right: 15px;
       padding-left: 15px; }
     }
+    .img-left {
+      width: 100%;
+    }
+    .text-right {
+      margin: auto auto 12 0;
+    }
   }
 
 .content-column {
@@ -363,7 +369,7 @@ table {
       .post-content h4 {
         font-size: 18px; } }
 
-.post-content > p:not(p) > .full-image, .post-content > p:not(p) > .img-left, .post-content > p:not(p) > .text-right, .post-content > h4, .post-content > strong, .post-content > p.text {
+.post-content > p:not(p) > .full-image, .post-content > p:not(p) > .text-right, .post-content > h4, .post-content > strong, .post-content > p.text {
  margin: auto auto 12 0;
 }
 .post-content > ul {
@@ -571,10 +577,9 @@ table {
 }
 
 .img-left {
-  max-width: 50%;
   position: relative;
   display: block;
-  margin: auto auto 12 0;
+  width: 50%;
 }
 
 .text-right {
@@ -583,5 +588,5 @@ table {
   display: block;
   float: left;
   text-align: left;
-  margin: -100 auto 12 400;
+  margin: -150 auto 12 385;
 }
