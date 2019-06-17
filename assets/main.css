@@ -123,12 +123,14 @@ blockquote {
       padding-left: 15px; }
     }
     .img-left {
-      width: 100%;
+      max-width: 100%;
     }
     .text-right {
+      max-width: 100%;
       margin: auto auto 12 0;
     }
     .list-right {
+      max-width: 100%;
       margin: auto auto 12 30;
     }
   }
@@ -596,5 +598,5 @@ table {
   max-width: 50%;
   position: relative;
   display: block;
-  margin: auto auto 312 415;
+  margin: auto auto 12 415;
 }
