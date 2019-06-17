@@ -2,7 +2,7 @@
 layout: post
 date:   2019-05-03
 image: "/puerto_rico_now/images/recovery/mapping-agency-thumbnail.gif"
-title:  "Community Agency through Mapping: Decision Making Tools for Puerto Ricans"
+title:  "Conflict Resolution through Mapping"
 author: "Ashley Louie & Gloria Serra Coch"
 ---
 <!-- ![Agency Through Mapping](/puerto_rico_now/images/recovery/agency_through_mapping.png) -->
@@ -50,10 +50,12 @@ In order to demonstrate potentially conflicting stakeholder values, which can co
 <p class="text">Representative Group: **grassroots community local leader**</p>
 
 <p class="text">Priorities: **long-term well-being of the community**</p>
-  - Prioritize underserved communities
-  - Long-term community resilience
-  - Access to infrastructure services
-  - Build robust economy
+<ul class="list">
+  <li>Prioritize underserved communities</li>
+  <li>Long-term community resilience</li>
+  <li>Access to infrastructure services</li>
+  <li>Build robust economy</li>
+</ul>
 
 Valeria used to teach at José Meléndez Ayala school, in Boquillas, but after its closure, she had to relocate. However, she feels lucky because she still has a job, not like most of her former colleagues. Her daughter, Tania, and her have to wake up very early every morning because the new school is much further. The classes are overcrowded and there are rats in the cafe but they are lucky because Tania is still able to go to school and they have a salary to support them. Valeria spends the day working at the school and the night in community meetings, where she works with other people in the village to find ways to provide what the government won’t and the community still needs. Her days are long and she often things about quitting, the badly paid job at the school or the fight, but she knows that both the kids, her extended family and the community need her.
 
@@ -82,9 +84,11 @@ Valeria used to teach at José Meléndez Ayala school, in Boquillas, but after i
 <p class="text">Representative Group: **middle class from Puerto Rico; some have emigrated to the mainland but still have close ties to the island.**</p>
 
 <p class="text">Priorities: **recovery and resilience**</p>
-  - Ensure the resilience of developed areas
-  - Recover from Hurricane Maria damage 
-  - Reduce risk from future threats (i.e. hurricanes, flood inundation, landslides, etc.)
+<ul class="list">
+  <li>Ensure the resilience of developed areas</li>
+  <li>Recover from Hurricane Maria damage</li>
+  <li>Reduce risk from future threats (i.e. hurricanes, flood inundation, landslides, etc.)</li>
+</ul>
 
 María used to teach at Universidad de Puerto Rico in Mayaguez, but she got nominated for research as marine biologist? and was offered a position in UCLA that a young academic like her could not turn down. Although she spends most of her time in Los Angeles  her closest friends are still in Puerto Rico and she travels there very often. The news of the hurricane highly strook her and losing contact of her loved ones made her realized how precious they were for her. In a similar way, seeing the island destroyed awakened nostalgic feelings of her life there, driving her to get more involved in its recovery.
 
@@ -112,9 +116,12 @@ María used to teach at Universidad de Puerto Rico in Mayaguez, but she got nomi
 <p class="text">Representative Group: **real estate speculators, finance that funds them and 1% of Puerto Rican society that supports this development**</p>
 
 <p class="text">Priorities: **attracting capital for the island and develop areas of the island in a more profitable way**</p>
-  - Improve areas with high economic growth potential
-  - Provide resources to resort and leisure developments
-  - Beautify tourist destination areas for profitability
+<ul class="list">
+  <li>Improve areas with high economic growth potential</li>
+  <li>Provide resources to resort and leisure developments</li>
+  <li>Beautify tourist destination areas for profitability</li>
+
+</ul>
 
 Bill runs a real estate company, like his father, Bill Sr., did before him. He considers himself a true New Yorker and loves to stare at the lights of the city that never sleeps from the back of the car after a long work day downtown. His father could not understand the drive of the city but Bill keeps imagining how he could change his mind by showing him the views from his office. He has been thinking about him lately due to a big investment that his firm is in the process of making. His father always told him that disasters are profitable for those who know how to make profit and that’s what he is going to do in Puerto Rico. The hurricane has not only clear extensions of land for development but also attracted the attention of investors that see it as an opportunity to redraw the profile of the place for a more profitable scenario: tourism. Bill knew that they had to move fast to secure their share of the cake but, after partnering with a local business leaders, he know he has more than the foot on the door.
 
