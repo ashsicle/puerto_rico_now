@@ -592,9 +592,10 @@ table {
 }
 
 .list-right {
+  max-width: 50%;
   position: relative;
   display: block;
   float: left;
   text-align: left;
-  margin: -300 300 12 415;
+  margin: -300 auto 12 415;
 }
