@@ -96,7 +96,7 @@ María used to teach at Universidad de Puerto Rico in Mayaguez, but she got nomi
 <p class="img-left"><img src="/puerto_rico_now/images/recovery/RecoveryResilience_layers.jpg" alt="Recovery & Resilience Data Layers Mapped" width="300" float="right"></p>
 
 <p class="text-right">Data Layers Mapped:</p>
-<ul>
+<ul class="list-right">
   <li>Population density</li>
   <li>Days without power</li>
   <li>Flood risk zones</li>
@@ -121,7 +121,7 @@ Bill runs a real estate company, like his father, Bill Sr., did before him. He c
 <p class="img-left"><img src="/puerto_rico_now/images/recovery/ExternalInvestor_layers.jpg" alt="External Investor Data Layers Mapped" width="300" float="right"></p>
 
 <p class="text-right">Data Layers Mapped:</p>
-<ul>
+<ul class="list-right">
   <li>Hotels</li>
   <li>Outdoor leisure</li>
   <li>Urban and historic tourist destinations</li>
