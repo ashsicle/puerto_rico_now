@@ -128,6 +128,9 @@ blockquote {
     .text-right {
       margin: auto auto 12 0;
     }
+    .list-right {
+      margin: auto auto 12 30;
+    }
   }
 
 .content-column {
