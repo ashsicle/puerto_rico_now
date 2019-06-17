@@ -591,7 +591,8 @@ table {
   max-width: 50%;
   position: relative;
   display: block;
-  margin: -300 auto 12 385;
+  margin: auto auto 12 385;
+  left: 50%;
 }
 
 .list-right {
