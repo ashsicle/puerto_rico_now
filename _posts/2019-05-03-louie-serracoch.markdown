@@ -73,7 +73,7 @@ Valeria used to teach at José Meléndez Ayala school, in Boquillas, but after i
   <li>Education services</li>
 </ul>
 
-![Community Leader Decision Model](/puerto_rico_now/images/recovery/CommunityLeader_maps.jpg)
+<img src="/puerto_rico_now/images/recovery/CommunityLeader_maps.jpg" alt="Community Leader Decision Model" clear="both">
 
 <img src="/puerto_rico_now/images/recovery/Maria.png" alt="María" width="300" align="center">
 
@@ -95,11 +95,13 @@ María used to teach at Universidad de Puerto Rico in Mayaguez, but she got nomi
 
 <img src="/puerto_rico_now/images/recovery/RecoveryResilience_layers.jpg" alt="Recovery & Resilience Data Layers Mapped" width="300" float="right">
 
-<p class="text">Data Layers Mapped:</p>
-  - Population density
-  - Days without power
-  - Flood risk zones
-  - Hurricane Maria damage
+<p class="text-right">Data Layers Mapped:</p>
+<ul>
+  <li>Population density</li>
+  <li>Days without power</li>
+  <li>Flood risk zones</li>
+  <li>Hurricane Maria damage</li>
+</ul>
 
 ![Recovery & Resilience Decision Model](/puerto_rico_now/images/recovery/RecoveryResilience_maps.jpg)
 
@@ -118,11 +120,13 @@ Bill runs a real estate company, like his father, Bill Sr., did before him. He c
 
 <img src="/puerto_rico_now/images/recovery/ExternalInvestor_layers.jpg" alt="External Investor Data Layers Mapped" width="300" float="right">
 
-<p class="text">Data Layers Mapped:</p>
-  - Hotels
-  - Outdoor leisure
-  - Urban and historic tourist destinations
-  - Development areas
+<p class="text-right">Data Layers Mapped:</p>
+<ul>
+  <li>Hotels</li>
+  <li>Outdoor leisure</li>
+  <li>Urban and historic tourist destinations</li>
+  <li>Development areas</li>
+</ul>
 
 ![External Investor Decision Model](/puerto_rico_now/images/recovery/ExternalInvestor_maps.jpg)
 
