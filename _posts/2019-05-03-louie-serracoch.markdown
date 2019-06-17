@@ -162,7 +162,7 @@ Breaking down the mapped decision model allows us to relate to the values of eac
 
 --
 
-**Data Sources**
+<p class="text">**Data Sources**</p>
 
 1. Annual Population Estimates for Puerto Rico by Municipality. [shapefile] . Planning board. April 2018
 2. Buildings. [shapefile] HotOSM via Humanitarian Data Exchange. 2018
@@ -174,7 +174,7 @@ Breaking down the mapped decision model allows us to relate to the values of eac
 8. Map of soil classification under the Land Use Plan (2015). [shapefile] Planning Board, Office of the Governor, Commonwealth of Puerto Rico. Oct 2017
 
 
-**References**
+<p class="text">**References**</p>
 
 1. “Hurricane Maria.” FEMA, U.S. Department of Homeland Security. March 14, 2019. <https://www.fema.gov/hurricane-maria>.
 2. Bannan, Natasha L. Puerto Rico’s Odious Debt: The Economic Crisis of Colonialism, 19 CUNY L. Rev. 287 (2016). <https://academicworks.cuny.edu/clr/vol19/iss2/5/>.
