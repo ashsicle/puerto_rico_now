@@ -589,8 +589,6 @@ table {
   max-width: 50%;
   position: relative;
   display: block;
-  float: left;
-  text-align: left;
   margin: -300 auto 12 385;
 }
 
@@ -598,8 +596,5 @@ table {
   max-width: 50%;
   position: relative;
   display: block;
-  float: left;
-  text-align: left;
-  margin: auto auto 12 415;
-  clear: both;
+  margin: auto auto 312 415;
 }
