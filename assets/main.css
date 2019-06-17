@@ -597,6 +597,6 @@ table {
   display: block;
   float: left;
   text-align: left;
-  margin: auto 300 12 415;
+  margin: auto auto 12 415;
   clear: both;
 }
