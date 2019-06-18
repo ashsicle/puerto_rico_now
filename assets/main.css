@@ -625,3 +625,15 @@ img.float-left {
     left: 0px;
   }
 }
+
+.iframe-column {
+  padding:60% 0 0 0;
+  position:relative;
+  width:100%;
+}
+
+.iframe-full {
+  padding:60% 0 0 0;
+  position:relative;
+  width:100vw;
+}
