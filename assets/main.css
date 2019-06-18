@@ -603,6 +603,13 @@ table {
   left: 50%;
 }
 
+img.float-left {
+  display:inline;
+  float:left;
+  margin: 5 15 5 0;
+  max-width: 47%;
+}
+
 @media screen and (max-width: 800px) {
   .img-left {
     max-width: 100%;
