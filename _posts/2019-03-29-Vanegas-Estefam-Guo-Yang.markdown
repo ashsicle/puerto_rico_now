@@ -61,10 +61,10 @@ We understand, of course, that these are two extremes on a broad spectrum that i
 With a focus on development and investment into the different municipalities of Puerto Rico, we attempted to uncover which municipalities will receive the greatest investment under two different scenarios that predict the island’s future under vastly different conditions. For our first scenario, we considered which municipalities are likely to receive the greatest dollar amount of development if current trends that enable predatory enterprises to flourish grows unchecked. Our second scenario considers those which have seen the greatest negative impact from such destructive developments, and visualizes a future in which these municipalities receive the greatest funding to restructure their economies, provide basic goods and services, and promote a sustainable quality of life for residents. The resulting maps showing both of these areas are visualized below.
 
   
-<div style="padding:60% 0 0 0;position:relative;"><iframe src="https://api.mapbox.com/styles/v1/yqjim111/cjuo99aj902l51fmbd2lxl2mp.html?fresh=true&title=true&access_token=pk.eyJ1IjoieXFqaW0xMTEiLCJhIjoiY2psb2k5ZGZkMXR1czNxdDV3dW55b3hyaiJ9.ihJM3eJ8hNrDmr7EYKjo7w#7.5/18.241454/-66.318462/0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"></iframe></div>
+<div class="iframe-column"><iframe src="https://api.mapbox.com/styles/v1/yqjim111/cjuo99aj902l51fmbd2lxl2mp.html?fresh=true&title=true&access_token=pk.eyJ1IjoieXFqaW0xMTEiLCJhIjoiY2psb2k5ZGZkMXR1czNxdDV3dW55b3hyaiJ9.ihJM3eJ8hNrDmr7EYKjo7w#7.5/18.241454/-66.318462/0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"></iframe></div>
 *Tourism Scenario Decision Making Map*
   
-<div style="padding:60% 0 0 0;position:relative;"><iframe src="https://api.mapbox.com/styles/v1/yqjim111/cjuo8ys5p066h1fpln1cxlrw6.html?fresh=true&title=true&access_token=pk.eyJ1IjoieXFqaW0xMTEiLCJhIjoiY2psb2k5ZGZkMXR1czNxdDV3dW55b3hyaiJ9.ihJM3eJ8hNrDmr7EYKjo7w#7.5/18.241454/-66.318462/0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"></iframe></div>
+<div class="iframe-full"><iframe src="https://api.mapbox.com/styles/v1/yqjim111/cjuo8ys5p066h1fpln1cxlrw6.html?fresh=true&title=true&access_token=pk.eyJ1IjoieXFqaW0xMTEiLCJhIjoiY2psb2k5ZGZkMXR1czNxdDV3dW55b3hyaiJ9.ihJM3eJ8hNrDmr7EYKjo7w#7.5/18.241454/-66.318462/0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"></iframe></div>
 *Lantrust Scenario Decision Making Map*
   
 <br/><br/>  
